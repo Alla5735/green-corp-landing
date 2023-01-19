@@ -61,6 +61,7 @@ class CanvasBackground {
        this.ctx.scale(this.dpr, this.dpr);
    }
 
+   
    animate() {
        this.ctx.clearRect(0, 0, this.canvas.clientWidth, this.canvas.clientHeight);
 
